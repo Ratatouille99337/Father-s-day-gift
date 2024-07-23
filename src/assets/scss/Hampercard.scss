@@ -1,0 +1,21 @@
+.hamperCardItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  transition: transform 0.3s ease;
+
+  .hamperCardItemTitle {
+    font-size: 20px; // Added 'px' unit
+    font-style: italic; // Separate font-style
+    font-weight: bold; // Separate font-weight
+  }
+  .hamperCardItemContent {
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  &:hover {
+    transform: scale(1.1);
+  }
+}
